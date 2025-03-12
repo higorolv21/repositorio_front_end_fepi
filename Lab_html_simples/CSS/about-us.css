@@ -1,28 +1,40 @@
 
+:root{
+    --cor_base: #222222;
+    --cor_background: #f3f3f3;
+    --cor_figure_bordas: #6b02f4;
+}
+
+
 body{
-    color: #333333;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor-base);
+    font-family: "Montserrat";
     margin-left: auto;
     margin-right: auto;
     width: 940px;
+    background-color: var(--cor_background);
 }
 
 
 h1{
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 
 h2{
     border-bottom: 2px groove #333333;
     margin-top: 30px;
+    font-family: "Roboto Serif";
+    font-weight: 200;
 }
 
 
 figure{
-    background-color: #f2eded;
-    border: 1px solid #ccc;
+    background-color: var(--cor_figure_bordas);
+    color: var(--color-base-figure-border);
     text-align: center;
     padding: 15px;
     margin: 30px;
