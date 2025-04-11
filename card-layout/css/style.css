@@ -1,0 +1,37 @@
+
+
+/* Estiliza os ícones check box */
+ul li {
+    list-style: url(https://img.icons8.com/?size=20&id=86524&format=png&color=000000);
+}
+
+* {
+    box-sizing: border-box 10;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    border: 2px solid black;
+}
+
+
+
+
