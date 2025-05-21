@@ -86,6 +86,7 @@ footer img{
 }
 
 
+/* Criando responsividade para tablet */
 @media (max-width: 768px) {
     body {
         width: auto;
@@ -127,6 +128,7 @@ footer img{
 }
 
 
+/* Criando responsividade para mobile */
 @media (max-width: 480px) {
     :root {
         font-size: 14px;
