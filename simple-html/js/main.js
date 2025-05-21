@@ -7,6 +7,6 @@ const linkExterno =
 // }
 
 linkExterno.addEventListener('click' , () => {
-    ("Você será redirecionado para uma página externa")
+    ("Você será redirecionado para uma página externa, obrigado")
 }); 
 
